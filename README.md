@@ -51,6 +51,7 @@ displayed as:
 # Designing the Program
 We will use top-bottom program desing. We will use a monolithic, MVC (Model-View-Controller) architecture.
 ## Module 1: Game
+![Alt text](/resources/flowchart-game.jpg?raw=true "Dashboard")
 ### Module 1.1: Player
 ### Module 1.2: Alien
 ### Module 1.3: HUD
