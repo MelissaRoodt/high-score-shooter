@@ -51,8 +51,17 @@ displayed as:
 # Designing the Program
 We will use top-bottom program desing. We will use a monolithic, MVC (Model-View-Controller) architecture.
 ## Module 1: Game
-![Alt text](/resources/flowchart-game.jpg?raw=true "Dashboard")
+![Alt text](/resources/flowchart-game.png?raw=true "Dashboard")
+![Alt text](/resources/structurechart-game.png?raw=true "Dashboard")
+
 ### Module 1.1: Player
+![Alt text](/resources/structurechart-player.png?raw=true "Dashboard")
+
 ### Module 1.2: Alien
+![Alt text](/resources/structurechart-alien.png?raw=true "Dashboard")
+
 ### Module 1.3: HUD
+![Alt text](/resources/structurechart-hud.png?raw=true "Dashboard")
+
 ## Module 2: Scoreboard
+![Alt text](/resources/structurechart-scoreboard.png?raw=true "Dashboard")
