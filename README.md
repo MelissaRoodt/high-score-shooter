@@ -97,5 +97,6 @@ We will use a monolithic, MVC (Model-View-Controller) architecture. Composition 
 - [ ] Compose Player
 - [ ] Compose Alien
 - [ ] Develop HUD
+- [ ] Setup MongoDB
 - [ ] Develop Scoreboard
 
