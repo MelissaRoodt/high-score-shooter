@@ -49,7 +49,7 @@ displayed as:
 |*     |score:    | 233    |
 
 # Designing the Program
-We will use top-bottom program desing. We will use a monolithic, MVC (Model-View-Controller) architecture.
+We will use top-bottom program desing.
 ## Module 1: Game
 ![Alt text](/resources/flowchart-game.png?raw=true "Dashboard")
 - The game will start
@@ -85,3 +85,17 @@ We will use top-bottom program desing. We will use a monolithic, MVC (Model-View
 - get top 10 from databse
 - process data (date to yyyy.mm.dd)
 - display top 10 leaders
+
+# Coding the program
+![Alt text](/resources/mvc.png?raw=true "Dashboard")
+We will use a monolithic, MVC (Model-View-Controller) architecture. Composition will be used to compose player and alien objects. This will ensure DRY principle. We will further use the SOLID principles to develop maintainable software.
+
+- [ ] Develop Gun mechanic
+- [ ] Develop Healt mechanic
+- [ ] Develop Score mechanic
+- [ ] Develop Movement mechanic
+- [ ] Compose Player
+- [ ] Compose Alien
+- [ ] Develop HUD
+- [ ] Develop Scoreboard
+
