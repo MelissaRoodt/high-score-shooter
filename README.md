@@ -1,3 +1,7 @@
+# Overview
+This is a simple space shooter inspired game where players are tasked to destroy the slimey alien invadors! Shoot, loot, and safe humanity! The top space heroes scores are captured and displayed in the leader board! 
+
+Tech stack are: typescript, mongoDB
 # Defining the Problem
 ## Program Specs:
 ### Data
@@ -35,4 +39,19 @@ output like 2024.05.10, and scoreboard is displayed as follows:
 |tar   |500   |2024.05.10|
 
 The non-persistant data displayed are life, score and bullets in top right corner. It can be 
-displayed as: icon, attribute, value (+ life: 3)
+displayed as:
+| icon | attribute| value  |
+|-----:|---------:|-------:|
+|+     |life:     | 3      |
+|-----:|---------:|-------:|
+|-     |bullets:  | 43     |
+|-----:|---------:|-------:|
+|*     |score:    | 233    |
+
+# Designing the Program
+We will use top-bottom program desing. We will use a monolithic, MVC (Model-View-Controller) architecture.
+## Module 1: Game
+### Module 1.1: Player
+### Module 1.2: Alien
+### Module 1.3: HUD
+## Module 2: Scoreboard
