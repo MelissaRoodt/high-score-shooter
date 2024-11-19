@@ -49,10 +49,54 @@ displayed as:
 |*     |score:    | 233    |
 
 # Designing the Program
-We will use top-bottom program desing. We will use a monolithic, MVC (Model-View-Controller) architecture.
+We will use top-bottom program desing.
 ## Module 1: Game
-![Alt text](/resources/flowchart-game.jpg?raw=true "Dashboard")
+![Alt text](/resources/flowchart-game.png?raw=true "Dashboard")
+- The game will start
+- The instance will spawn (player, aliens)
+- The game will check if player alive
+- If player dead: Sent relevant data to scoreboard through event
+  
+![Alt text](/resources/structurechart-game.png?raw=true "Dashboard")
+- spawn player and aliens
+- save data/send to scoreboard
+- restart the game
+
 ### Module 1.1: Player
+![Alt text](/resources/structurechart-player.png?raw=true "Dashboard")
+- get/set gun bullets (shoot, reload) 
+- get/set health (add, remove)
+- get/set score (add, reset)
+- movement (left, right, up, down)
+
 ### Module 1.2: Alien
+![Alt text](/resources/structurechart-alien.png?raw=true "Dashboard")
+- movement (left, right)
+- get/set health (add, remove)
+  
 ### Module 1.3: HUD
+![Alt text](/resources/structurechart-hud.png?raw=true "Dashboard")
+- get gun bullets
+- get score
+- get bullets
+  
 ## Module 2: Scoreboard
+![Alt text](/resources/structurechart-scoreboard.png?raw=true "Dashboard")
+- get top 10 from databse
+- process data (date to yyyy.mm.dd)
+- display top 10 leaders
+
+# Coding the program
+![Alt text](/resources/mvc.png?raw=true "Dashboard")
+We will use a monolithic, MVC (Model-View-Controller) architecture. Composition will be used to compose player and alien objects. This will ensure DRY principle. We will further use the SOLID principles to develop maintainable software.
+
+- [ ] Develop Gun mechanic
+- [ ] Develop Healt mechanic
+- [ ] Develop Score mechanic
+- [ ] Develop Movement mechanic
+- [ ] Compose Player
+- [ ] Compose Alien
+- [ ] Develop HUD
+- [ ] Setup MongoDB
+- [ ] Develop Scoreboard
+
