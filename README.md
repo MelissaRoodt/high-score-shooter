@@ -41,8 +41,11 @@ output like 2024.05.10, and scoreboard is displayed as follows:
 The non-persistant data displayed are life, score and bullets in top right corner. It can be 
 displayed as:
 | icon | attribute| value  |
+|-----:|---------:|-------:|
 |+     |life:     | 3      |
+|-----:|---------:|-------:|
 |-     |bullets:  | 43     |
+|-----:|---------:|-------:|
 |*     |score:    | 233    |
 
 # Designing the Program
